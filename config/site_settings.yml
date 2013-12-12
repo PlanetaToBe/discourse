@@ -1,10 +1,10 @@
 required:
   title:
     client: true
-    default: 'Discourse'
+    default: 'discuss to.be'
   site_description: ''
   contact_email: ''
-  notification_email: 'info@discourse.org'
+  notification_email: 'ops@tobe.us'
   site_contact_username: ''
   logo_url:
     client: true
@@ -15,10 +15,10 @@ required:
   favicon_url:
     client: true
     default: '/assets/default-favicon.ico'
-  apple_touch_icon_url: /assets/default-apple-touch-icon.png'
-  company_full_name: 'My Unconfigured Forum Ltd.'
-  company_short_name: 'Unconfigured Forum'
-  company_domain: 'www.example.com'
+  apple_touch_icon_url: '/assets/default-apple-touch-icon.png'
+  company_full_name: 'to.be'
+  company_short_name: 'to.be'
+  company_domain: 'to.be'
 
 basic:
   default_locale:
