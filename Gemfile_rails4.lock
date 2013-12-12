@@ -110,6 +110,9 @@ GEM
       activerecord (>= 2.3.0)
       rake (>= 0.8.7)
     arel (4.0.1)
+    asset_sync (1.0.0)
+      activemodel
+      fog (>= 1.8.0)
     atomic (1.1.14)
     barber (0.4.2)
       ember-source
@@ -234,6 +237,7 @@ GEM
     net-scp (1.1.2)
       net-ssh (>= 2.6.5)
     net-ssh (2.7.0)
+    newrelic_rpm (3.7.1.180)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     oauth (0.4.7)
@@ -282,7 +286,7 @@ GEM
       pry (~> 0.9.10)
     pry-rails (0.3.2)
       pry (>= 0.9.10)
-    puma (2.6.0)
+    puma (2.7.1)
       rack (>= 1.1, < 2.0)
     qunit-rails (0.0.4)
       railties (>= 3.2.3)
@@ -447,6 +451,7 @@ DEPENDENCIES
   active_model_serializers
   airbrake (= 3.1.2)
   annotate
+  asset_sync
   barber
   better_errors
   binding_of_caller
@@ -480,6 +485,7 @@ DEPENDENCIES
   mock_redis
   multi_json
   mustache
+  newrelic_rpm
   nokogiri
   oj
   omniauth

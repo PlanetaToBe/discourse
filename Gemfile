@@ -131,10 +131,11 @@ gem 'rack-protection' # security
 # Gems used only for assets and not required
 # in production environments by default.
 # allow everywhere for now cause we are allowing asset debugging in prd
-group :assets do
-  gem 'sass-rails'
-  gem 'uglifier'
-end
+#group :assets do
+gem 'sass-rails'
+gem 'uglifier'
+gem 'asset_sync'
+#end
 
 group :test do
   gem 'fakeweb', '~> 1.3.0', require: false
@@ -199,3 +200,5 @@ group :profile do
   # if you need to profile, uncomment out this line
   # gem 'rack-perftools_profiler', require: 'rack/perftools_profiler', platform: :mri_19
 end
+
+gem 'newrelic_rpm'

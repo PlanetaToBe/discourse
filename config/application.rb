@@ -155,5 +155,11 @@ module Discourse
       require 'rbtrace'
     end
 
+    # https://discussion.heroku.com/t/fontawesome-doesnt-load-on-firefox-because-of-cors-configuration-issue/35/18
+    config.action_dispatch.default_headers = {
+      'Access-Control-Allow-Origin' => '*',
+      'Access-Control-Request-Method' => '*'
+    }
+
   end
 end
